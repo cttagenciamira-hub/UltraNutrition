@@ -428,7 +428,7 @@ h1 {
     /* Estilos da "caixinha" para o hero no mobile */
     .hero-content {
         margin-left: 0;  /* Regra existente, mantida */
-        max-width: 65%;  /* Garante que a caixa não ocupe a tela toda */
+        max-width: 70%;  /* Garante que a caixa não ocupe a tela toda */
         padding: 1.5rem; /* Espaçamento interno da caixa */
         
     }
@@ -478,4 +478,5 @@ h1 {
         margin-top: 0; /* Remove a margem negativa */
         margin-bottom: 20px; /* Adiciona espaço abaixo */
     }
+
 }
