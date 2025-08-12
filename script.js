@@ -6,8 +6,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (hamburger && navMenu) {
         hamburger.addEventListener('click', () => {
+            // Alterna a classe no menu para exibi-lo
             navMenu.classList.toggle('active');
             
+            // NOVO: Alterna uma classe no body para controlar outros elementos
+            document.body.classList.toggle('menu-open');
+
             // Troca o ícone de menu para 'X' e vice-versa
             const icon = hamburger.querySelector('i');
             if (navMenu.classList.contains('active')) {
